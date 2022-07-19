@@ -2,6 +2,7 @@ public class Menu {
     
     private final Operation op = new Operation();
 
+    
     public void showMenu(){
         Terminal.showMessage("1. Next number\n2. Average numbers\n3. Operations with a rectangle\n4.Random number");
         int menu = Terminal.askNumber("Select an option");
