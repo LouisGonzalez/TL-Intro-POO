@@ -6,6 +6,7 @@ public class Operation {
         return number + 1;
     }
 
+    
     public int averageNumbers(int totalNumbers){
         int total = 0;
         for(int i = 0; i < totalNumbers; i++){
