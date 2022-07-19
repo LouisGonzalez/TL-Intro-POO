@@ -6,6 +6,7 @@ public class Octagon extends Figure{
         this.side = side;
     }
 
+    
     @Override
     public int calculateArea(){
         return (calculatePerimeter() / 2);
