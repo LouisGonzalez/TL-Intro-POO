@@ -2,6 +2,7 @@ public class Menu {
     
     private final Operations op = new Operations();
 
+    
     public void showMenu(){
         Terminal.showMessage("1. Divisible numbers\n2. Break down numbers\n3. Capicua number");
         int menu = Terminal.askNumber("Select an option");
